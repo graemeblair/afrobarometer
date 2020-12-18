@@ -1,0 +1,21 @@
+Package: afrobarometer
+Title: Afrobarometer survey data package
+Version: 0.0.0.9000
+Authors@R: 
+    c(person(family = "Afrobarometer",
+             role = "cph",
+             email = "bhoward@afrobarometer.org"),
+      person(given = "Graeme",
+             family = "Blair",
+             role = c("aut", "cre"),
+             email = "graeme.blair@ucla.edu",
+             comment = c(ORCID = "0000-0001-9164-2102"))
+    )
+Description: Easily access the Afrobarometer survey data from round 1 to round 7.
+License: http://afrobarometer.org/data/data-use-policy
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
